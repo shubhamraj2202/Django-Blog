@@ -1,0 +1,16 @@
+django-admin startproject 	 myproject
+python manage.py help
+python manage.py runserver
+python manage.py startapp personal
+python manage.py runserver
+python manage.py startapp blog
+python manage.py migrate
+python manage.py makemigrations
+python manage.py makemigrations blog
+python manage.py sqlmigrate blog 0001
+python manage.py migrate	
+createsuperuser
+
+sample code : https://pythonprogramming.net/finished-blog-django-python-tutorial/
+Reference : https://www.youtube.com/watch?v=Y-CT_l1dnVU&pbjreload=10
+To host online : Digitalocean
